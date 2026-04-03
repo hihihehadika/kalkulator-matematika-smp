@@ -1,12 +1,14 @@
 <div align="center">
   <h1>📐 Kalkulator Matematika SMP</h1>
-  <p><b>Aplikasi kalkulator pintar & interaktif untuk mempermudah belajar Matematika tingkat SMP.</b></p>
+  <p><b>Aplikasi kalkulator pintar & interaktif untuk membantu siswa mengerjakan dan memverifikasi jawaban soal Matematika tingkat SMP.</b></p>
 </div>
 
 ---
 
 ## ✨ Tentang Aplikasi
-Aplikasi **Kalkulator Matematika SMP** adalah sebuah *desktop application* yang dirancang secara khusus untuk memecahkan berbagai persoalan matematika. Aplikasi ini dilengkapi dengan **Visualisasi 3D (Wireframe & Shading)** yang mulus dan antarmuka (UI) gaya modern berbasis *carousel/cards*, membuat proses belajar matematika dan penyelesaian tugas menjadi jauh lebih interaktif.
+Aplikasi **Kalkulator Matematika SMP** adalah sebuah *desktop software* yang diciptakan khusus untuk membantu penyelesaian berbagai persoalan dan tugas matematika. Dengan aplikasi ini, setiap perhitungan yang rumit dapat dicari jawabannya secara instan dan akurat. 
+
+Dilengkapi dengan **Visualisasi 3D (Wireframe & Shading)** yang sangat mulus serta antarmuka bergaya modern berbasis *carousel/cards*, aplikasi ini menjamin pengalaman mengerjakan soal matematika yang tidak membosankan dan sangat interaktif.
 
 Proyek ini aslinya berupa *prototype* dalam Python (PyQt6) yang kemudian telah ditulis ulang sepenuhnya ke dalam **C++** untuk mendapatkan performa maksimal, rendering 60 FPS, dan efisiensi memori yang jauh lebih baik.
 
