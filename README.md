@@ -1,49 +1,101 @@
 <div align="center">
-  <h1>📐 Kalkulator Matematika SMP</h1>
-  <p><b>Aplikasi kalkulator pintar & interaktif untuk membantu siswa mengerjakan dan memverifikasi jawaban soal Matematika tingkat SMP.</b></p>
+  <h1>Junior High School Mathematics Calculator</h1>
+  <p><b>A lightweight and interactive application to help verify assignments and mathematical problems for Junior High School level.</b></p>
+  <br>
+  <p>
+    <img src="https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++">
+    <img src="https://img.shields.io/badge/Framework-Qt_6.6-41CD52?style=for-the-badge&logo=qt" alt="Qt">
+    <img src="https://img.shields.io/badge/Platform-Windows_10%2F11-0078D6?style=for-the-badge&logo=windows" alt="Windows">
+    <a href="https://github.com/hihihehadika/kalkulator-matematika-smp/releases/latest">
+      <img src="https://img.shields.io/github/v/release/hihihehadika/kalkulator-matematika-smp?style=for-the-badge&color=blue" alt="Latest Release">
+    </a>
+  </p>
 </div>
 
 ---
 
-## ✨ Tentang Aplikasi
-Aplikasi **Kalkulator Matematika SMP** adalah sebuah *desktop software* yang diciptakan khusus untuk membantu penyelesaian berbagai persoalan dan tugas matematika. Dengan aplikasi ini, setiap perhitungan yang rumit dapat dicari jawabannya secara instan dan akurat. 
+## About the Application
 
-Dilengkapi dengan **Visualisasi 3D (Wireframe & Shading)** yang sangat mulus serta antarmuka bergaya modern berbasis *carousel/cards*, aplikasi ini menjamin pengalaman mengerjakan soal matematika yang tidak membosankan dan sangat interaktif.
+**Junior High School Mathematics Calculator** is a desktop software designed to easily find answers for various types of math problems. The application was originally built using Python (PyQt6) as a prototype, and then entirely rewritten using **C++** to be more highly optimized, lightweight in memory, and with smoother animations.
 
-Proyek ini aslinya berupa *prototype* dalam Python (PyQt6) yang kemudian telah ditulis ulang sepenuhnya ke dalam **C++** untuk mendapatkan performa maksimal, rendering 60 FPS, dan efisiensi memori yang jauh lebih baik.
+> **Note:** The application's user interface and built-in formulas are currently presented in **Indonesian**.
 
-## 🚀 Fitur Utama
-Aplikasi ini memiliki 7 modul utama kalkulasi:
-1. **📦 Bangun Ruang** - Menghitung Volume, Luas Permukaan, dan pencarian variabel balik (Reverse Solving) dilengkapi dengan **Proyeksi 3D** yang bisa berotasi untuk ke-8 bentuk geometri umum (Kubus, Balok, Tabung, Kerucut, Limas, Prisma, dll).
-2. **📈 Persamaan Garis Lurus** - Menghitung gradien, persamaan dari 2 titik, dan menggambar graik garis linier secara otomatis.
-3. **🎲 Peluang & Probabilitas** - Visualisasi jumlah dadu, koin bersisi, dan ruang sampel untuk menghitung peluang kejadian matematika.
-4. **➗ Sistem Persamaan Linear (SPLDV)** - Mencari nilai variabel (x, y) menggunakan perhitungan metode Eliminasi.
-5. **📐 Teorema Pythagoras** - Mencari panjang sisi miring (hipotenusa), alas, maupun tinggi segitiga siku-siku.
-6. **📊 Statistika Dasar** - Menganalisis sekumpulan data untuk menemukan nilai Rata-rata (Mean), Nilai Tengah (Median), dan Modus.
-7. **🧮 Kalkulator Basic** - Fitur kalkulator standar untuk kebutuhan aritmatika harian (pecahan, desimal).
-
-## 🛠️ Teknologi yang Digunakan
-- **Bahasa Pemrograman**: C++ (C++17)
-- **Framework GUI**: Qt6 (C++ Qt)
-- **Modul Qt**: `Qt::Widgets`, `Qt::Core`, `Qt::Gui`, `Qt::Charts`
-- **Sistem Build**: CMake
-- **Animasi & Render**: `QPainter`, `QPropertyAnimation`, `QGraphicsScene`
-
-## ⚙️ Build & Kompilasi (Untuk Developer)
-Bagi Anda yang ingin meng-compile kode sumber ini:
-1. Pastikan Anda telah menginstal **Qt6** dan **CMake** di sistem Anda.
-2. Buka file `CMakeLists.txt` menggunakan **Qt Creator**.
-3. Pilih *Kit* compiler (disarankan MinGW 64-bit untuk Windows).
-4. Klik **Build** (Ctrl+B) atau jalankan perintah CLI:
-   ```bash
-   mkdir build && cd build
-   cmake ..
-   cmake --build .
-   ```
-
-## 📥 Download / Instalasi
-Aplikasi ini telah di-*bundle* menjadi satu file `.exe` *installer* yang mudah dipasang.
-> 👉 Buka tab **[Releases]** di samping kanan halaman ini untuk mengunduh versi installer Inno Setup terbaru.
+With a modern user interface (carousel style) and interactive 3D visual geometry, this application aims to be an engaging companion for solving math homework.
 
 ---
-*Dibuat oleh Dika.*
+
+## Main Features
+
+<div align="center">
+  <img src="assets/preview.png" alt="App Screenshot" width="800">
+</div>
+
+This application provides 7 calculation calculation modules, each with its own specific visualizations:
+
+1. **3D Geometry (Bangun Ruang)** 
+   Calculate Volume and Surface Area, complete with a *Reverse Solving* feature (finding side lengths if the volume is known). Equipped with **Interactive 3D Visualizations (Wireframe/Solid)** for 8 major geometric shapes (Cube, Cylinder, Cone, Pyramid, etc.) that can be manipulated with auto-rotation.
+
+2. **Linear Equations (Persamaan Garis Lurus)**
+   Determine gradients, find equations through 2 coordinates (X and Y), and features automatic Cartesian line plotting.
+
+3. **Probability (Peluang & Probabilitas)** 
+   Calculate event probabilities. Displays special visualizers for Coin tosses, Dice rolls, and a complete Sample Space table.
+
+4. **Linear Equation Systems (SPLDV)**
+   Features an Elimination method calculation algorithm to find the solution set for two variables flawlessly.
+
+5. **Pythagorean Theorem**
+   High decimal precision to find the hypotenuse, base, or perpendicular height of a right-angled triangle.
+
+6. **Basic Statistics**
+   Freely input a numerical dataset to instantly get the computed Mean, Median, and Mode.
+
+7. **Basic Calculator**
+   A supplementary feature offering a standard integrated calculation screen for daily arithmetic needs.
+
+---
+
+<br>
+
+<div align="center">
+
+## Download Installer (.exe)
+
+For those who want to directly install and try the application, please easily download the latest version by clicking the button below:
+
+[![Download Latest Release](https://img.shields.io/badge/Download_Installer-v1.0.0-FF4500?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/hihihehadika/kalkulator-matematika-smp/releases/latest)
+
+</div>
+
+<br>
+
+---
+
+## Build from Source (For Developers)
+
+For developers who wish to compile the code on their local machine:
+
+#### Prerequisites:
+* `C++17` Compiler (MinGW 64-bit is highly recommended for Windows)
+* **CMake** (version 3.16 or higher)
+* **Qt 6 OpenSource** standard library (main components: `Core`, `Gui`, `Widgets`, `Charts`, `Qml`)
+
+#### Build Steps:
+Run the following standard CMake commands from your terminal's working directory. 
+
+> **Important:** If your compiler cannot automatically detect Qt6, you need to point CMake to your Qt installation directory using the `-DCMAKE_PREFIX_PATH` flag during the configuration step.
+
+```bash
+git clone https://github.com/hihihehadika/kalkulator-matematika-smp.git
+cd kalkulator-matematika-smp
+mkdir build && cd build
+
+# 1. Configure the project (adjust the Qt path according to your local machine)
+cmake -DCMAKE_PREFIX_PATH="C:/Qt/6.x.x/mingw_64" ..
+
+# 2. Build the executable
+cmake --build .
+```
+
+---
+*Created by Dika.*
